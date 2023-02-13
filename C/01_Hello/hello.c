@@ -1,14 +1,8 @@
 #include <stdio.h>
 
 int main(void){
-    // printf("Hello Everyone!");
+    printf("Hello Everyone!");
 
-/*
-    FORMAT BELİRLEYİCİLER
-    %d : int
-    %c : char3
-    %f : float
-*/
 
 /* aritmetik işlemler */
     printf("%d\n", 10*4);
@@ -23,5 +17,18 @@ int main(void){
     printf("Girdiginiz sayi:%d\n",x); //kullanıcıdan alınan inputu yazdırma
 
 
+/* Veri Türleri */
+    int age=12;
+    float weight=50.5;
+    char sign='C';
+    char kdizisi[] = "csezer";
+
+/*
+    FORMAT BELİRLEYİCİLER
+    %d : int
+    %c : char3
+    %f : float
+    %s : string
+*/
 
 }
