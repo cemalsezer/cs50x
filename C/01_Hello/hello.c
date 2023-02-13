@@ -23,12 +23,18 @@ int main(void){
     char sign='C';
     char kdizisi[] = "csezer";
 
+    double height=1523.5; // double > float
+
 /*
     FORMAT BELİRLEYİCİLER
     %d : int
     %c : char3
     %f : float
     %s : string
+
+    %lf: double
+    %d : bool
+    
 */
 
 }
