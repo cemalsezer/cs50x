@@ -9,7 +9,7 @@ int main(){
         printf("Sutun sayisini giriniz: ");
         scanf("%d", &columns);
         scanf("%c");
-        printf("Satir sayisini giriniz: ");
+        printf("Sembolu giriniz: ");
         scanf("%c", &symbol);
 
         for (int i = 0; i < rows; i++)
