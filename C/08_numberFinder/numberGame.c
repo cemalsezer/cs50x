@@ -14,21 +14,20 @@ int main(){
 
     trueNumber=(rand()%max)+min;
 
-    do
-    {
+    do{
         printf("Bir sayi giriniz: ");
-         scanf("%d",guess);
+        scanf("%d",guess);
          if(guess>trueNumber){
-            printf("Asagi in");
+            printf("Asagi in \n");
          }
             else if(guess<trueNumber){
-             printf("Yukari cik");
+             printf("Yukari cik \n");
             }
             else{
             printf("Bildin \n");  
             }
             numberOfGuess++;
-    } while (guess != trueNumber);
+    }while (guess != trueNumber);
     
     printf("Dogru cevap: %d\n",trueNumber);
     printf("%d denemde buldun",numberOfGuess);
