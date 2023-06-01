@@ -2,7 +2,7 @@
 // #include <cs50.h>
 
 void chart(int scr){
-        for(int i=1;i<=scr;i++){
+        for(int i=1;i<=scr; i++){
          printf("#");
         }
         printf("\n");
