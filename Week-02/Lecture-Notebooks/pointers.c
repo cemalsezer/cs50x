@@ -13,6 +13,4 @@ int main(void){
     printf("\n");
     printf("%d",*ptr);//pointerin gösterdiği değeri verir
 
-
-    
 }
