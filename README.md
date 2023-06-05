@@ -5,3 +5,4 @@
 ## KAYNAKLAR
 - [Harvard CS50x 2023](https://cs50.harvard.edu/x/2023/)
 - [Kodluyoruz CS50x](https://courses.kodluyoruz.org/courses/course-v1:Kodluyoruz+CS50x+2020/about)
+- [W3Schools](https://www.w3schools.com/c/index.php)
