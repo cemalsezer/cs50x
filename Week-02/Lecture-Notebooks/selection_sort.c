@@ -16,10 +16,10 @@ void selectionSort(int arr[], int arrS){
 
     int i,j,min;
 
-    for(i = 0; i<arrS-1;i++){
+    for(i = 0; i<arrS;i++){
         min=i;
 
-        for(j=i+1;j<arrS;j++){
+        for(j=i;j<arrS;j++){
 
             if(arr[min]>arr[j])
             min = j;
