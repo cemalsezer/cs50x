@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+swap(int *x,int *y){
+    int temp;
+    temp=*x;
+    *x=*y;
+    *y=temp;
+}
+
 void bubbleSort(int arr[],int arrSize){
     int i,j;
     for(i=0;i<arrSize;i++){
         for(j=1;j<arrSize-i;j++){
             if(arr[j-1]>arr[j]){
-                 int temp;
-                temp=arr[j-1];
-                arr[j-1]=arr[j];
-                arr[j]=temp;
+                swap(&arr[j-1],&arr[j]);
    
             }
         }
