@@ -33,17 +33,17 @@ int main(int argc, string argv[]){
 
         if(text[i]>='a'&&text[i]<='z'){
             int kucuk = 'z'-text[i];
-            printf("\n kucuk: %d",kucuk);
-            printf("\n key: %d",key);
+            // printf("\n kucuk: %d",kucuk);
+            // printf("\n key: %d",key);
 
             if(key>kucuk){
                 int k=(key-kucuk)-1;
-                printf("\n k: %d",k);
+                //printf("\n k: %d",k);
                 text[i]='a';
                 printf("%c",text[i]+k);
                 continue;
         }
-             printf("%c",text[i]+key);
+            printf("%c",text[i]+key);
              continue;
         }
         else if(text[i]>='A'&&text[i]<='Z'){
